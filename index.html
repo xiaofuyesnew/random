@@ -18,9 +18,12 @@
     <div class="result">
         <span>true </span>
         <span id="result"></span>
+        <span>false </span>
+        <span id="compile"></span>
     </div>
     <script>
-        var result = document.getElementById('result')
+        var result = document.getElementById('result'),
+            compile = document.getElementById('compile')
 
         function getRandom() {
             var myDate = new Date(),
@@ -28,6 +31,8 @@
             
             return result.innerHTML = rate
         }
+
+        compile.innerHTML = Math.random()
 
         getRandom()
     </script>
