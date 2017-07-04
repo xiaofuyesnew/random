@@ -1,0 +1,23 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "almost true random number",
+  "main": "index.js",
+  "scripts": {
+    "test": "browser-sync start --server --files \"*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaofuyesnew/random.git"
+  },
+  "author": "Allen Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaofuyesnew/random/issues"
+  },
+  "homepage": "https://github.com/xiaofuyesnew/random#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
+  }
+}

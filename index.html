@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>random</title>
+    <style>
+        .result {
+            font-family: 'Microsoft Yahei';
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <span>true </span>
+        <span id="result"></span>
+    </div>
+    <script>
+        var result = document.getElementById('result')
+
+        function getRandom() {
+            var myDate = new Date(),
+                rate = myDate.getMilliseconds() / 1000
+            
+            return result.innerHTML = rate
+        }
+
+        getRandom()
+    </script>
+</body>
+</html>
